@@ -21,9 +21,3 @@ EAPoint::EAPoint(const EAPoint &newBrightestPoint)
 	setY(newBrightestPoint.getY());
 	setValue(newBrightestPoint.getValue());
 }
-
-bool EAPoint::operator>(EAPoint &other)
-{
-	return (getValue() > other.getValue());
-}
-

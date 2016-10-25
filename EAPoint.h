@@ -44,7 +44,7 @@ public:
 			value = newValue;
 	}
 
-	inline void setRadius(int newRadius) {
+	void setRadius(int newRadius) {
 		if (newRadius < 0 )
 			throw ("IllegalArgumentException for radius value");
 		if (newRadius > 100)
