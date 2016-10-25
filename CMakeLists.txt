@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( FindBrightest )
+find_package( OpenCV REQUIRED )
+add_executable( FindBrightest Main.cpp EAPoint.cpp )
+target_link_libraries( FindBrightest ${OpenCV_LIBS} )
